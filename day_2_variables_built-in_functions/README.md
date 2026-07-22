@@ -1,99 +1,37 @@
-# Built in functions
+# Exercise: Level 1
 
-Built-in functions are globally available for your use that mean you can make use of the built-in functions without importing or configuring.
-![Built-in Functions](../assets/builtin-functions.png)
+1. Inside 30DaysOfPython create a folder called day_2. Inside this folder create a file named variables.py
+2. Write a python comment saying 'Day 2: 30 Days of python programming'
+3. Declare a first name variable and assign a value to it
+4. Declare a last name variable and assign a value to it
+5. Declare a full name variable and assign a value to it
+6. Declare a country variable and assign a value to it
+7. Declare a city variable and assign a value to it
+8. Declare an age variable and assign a value to it
+9. Declare a year variable and assign a value to it
+10. Declare a variable is_married and assign a value to it
+11. Declare a variable is_true and assign a value to it
+12. Declare a variable is_light_on and assign a value to it
+13. Declare multiple variable on one line
 
-# Variables
+# Exercise: Level 2
 
-Variables store data in a computer memory. Mnemonic variables are recommended to use in many programming languages. A mnemonic variable is a variable name that can be easily remembered and associated. A variable refers to a memory address in which data is stored. Number at the beginning, special character, hyphen, are not allowed when naming a variable.
+1. Check the data type of all your variables using type() built-in function
+2. Using the len() built-in function, find the length of your first name
+3. Compare the length of your first name and your last name
+4. Declare 5 as num_one and 4 as num_two
+5. Add num_one and num_two and assign the value to a variable total
+6. Subtract num_two from num_one and assign the value to a variable diff
+7. Multiply num_two and num_one and assign the value to a variable product
+8. Divide num_one by num_two and assign the value to a variable division
+9. Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
+10. Calculate num_one to the power of num_two and assign the value to a variable exp
+11. Find floor division of num_one by num_two and assign the value to a variable floor_division
+12. The radius of a circle is 30 meters.
 
-Python Variable Name Rules
+- Calculate the area of a circle and assign the value to a variable name of area_of_circle
+- Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
+- Take radius as user input and calculate the area.
 
-- A variable name must start with a letter or the underscore character
-- A variable name cannot start with a number
-- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
-- Variable names are case-sensitive (firstname, Firstname, FirstName and FIRSTNAME) are different variables)
-
-Invalid variables names
-
-```Python
-first-name
-first@name
-first$name
-num-1
-1num
-```
-
-Python developers use snake case (snake_case) variable naming convention. When we assign a certain data type to a variable, it is called variable declaration. The equal sign is an assignment operator.
-
-```python
-first-name = 'Noval'
-last-name = 'Ramadhan'
-```
-
-Print function takes unlimited number of arguments. An argument is a value which we can be passed or put inside the function parenthesis.
-
-```python
-print('Hello, World!')
-print('Hello', ',', 'World', '!')
-print(len('Hello, World!'))
-```
-
-## Declaring Multiple Variable in a Line
-
-```python
-first-name, last-name, country, age, is_married = 'Noval', 'Ramadhan', 'Indonesia', 20, True
-
-print(first-name, last-name, country, age, is_married)
-print('First name:', first-name)
-print('Last name: ', last-name)
-```
-
-Getting user input using the input() built-in function.
-
-```python
-first_name = input('What is your name: ')
-age = input('How old are you? ')
-
-print(first_name)
-print(age)
-```
-
-# Data Types
-
-## Checking Data types and Casting
-
-- Casting: Converting one data type to another data type. We use int(), float(), str(), list, set. When we do arithmetic operations string numbers should be first converted to int or float otherwise it will return an error. If we concatenate a number with a string, the number should be first converted to a string.
-
-```python
-# int to float
-num_int = 10
-print('num_int', num_int)
-num_float = float(num_int)
-print('num_float:', num_float)
-
-# float to int
-gravity = 9.81
-print(int(gravity))
-
-# int to str
-num_int = 10
-print(num_int)
-num_str = str(num_int)
-print(num_str)
-
-# str to int or float
-num_str = '10.6'
-num_float = float(num_str)
-num_int = int(num_float)
-print('num_int', int(num_str))
-print('num_float', float(num_str))
-num_inst = inst(num_float)
-print('num_int', int(num_int))
-
-# str to list
-first_name = 'Noval'
-print(first_name)
-first_name_to_list = list(first_name)
-print(first_name_to_list)
-```
+1. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+2. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords

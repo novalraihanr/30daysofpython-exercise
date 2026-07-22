@@ -1,115 +1,39 @@
-<!--toc:start-->
+# Exercise: Level 1
 
-- [Comments](#comments)
-  - [Single Line Comments](#single-line-comments)
-  - [Multiline Comments](#multiline-comments)
-- [Data types](#data-types)
-  - [Number](#number)
-  - [String](#string)
-  - [Booleans](#booleans)
-  - [List](#list)
-  - [Dictionary](#dictionary)
-  - [Tuple](#tuple)
-  - [Set](#set)
-- [Checking Data Types](#checking-data-types)
+1. Check the python version you are using
+2. Open the python interactive shell and do the following operations. The operands are 3 and 4.
 
-<!--toc:end-->
+- addition(+)
+- subtraction(-)
+- multiplication(*)
+- modulus(%)
+- division(/)
+- exponential(**)
+- floor division operator(//)
 
-# Comments
+1. Write strings on the python interactive shell. The strings are following:
 
-Comments play a crucial role in enhancing code readability and allowing developers to leave notes within their code.
+- Your name
+- Your family name
+- Your country
+- I am enjoying 30 days of python
 
-## Single Line Comments
+1. Check the data types of the following data:
 
-```python
-# This is the first comments
-# This is the second comments
-# This is the third comments
-```
+- 10
+- 9.8
+- 3.14
+- 4 - 4j
+- ['Asabeneh', 'Python', 'Finland']
+- Your name
+- Your family name
+- Your country
 
-## Multiline Comments
+# Exercise: Level 2
 
-```python
-"""This is a Multiline comments
-Multiline comment takes multiple lines.
-python is eating this world
-""""
-```
+1. Create a folder named day_1 inside 30DaysOfPython folder. Inside day_1 folder, create a python file helloworld.py and repeat questions 1, 2, 3 and 4. Remember to use print() when you are working on a python file. Navigate to the directory where you have saved your file, and run it.
 
-# Data types
+# Exercise: Level 3
 
-## Number
-
-- Integer
-  Example: -3, -2, -1, 0, 1, 2, 3
-
-- Float
-  Example: -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5
-
-- Complex
-  Example: 1 + j, 2 + 4j
-
-## String
-
-```python
-'Asabeneh'
-'Finland'
-'Python'
-'I love teaching'
-'I hope you are enjoying the first day of 30DaysOfPython Challange'
-```
-
-## Booleans
-
-```python
-True # Is the light on? if it is on, then the value is True
-False # Is the light on? If it is off, then the value is False
-```
-
-## List
-
-Python list is an **ordered** collection which allows to store different data type items.
-
-```python
-[0, 1, 2, 3, 4, 5]
-['Banana', 'Orange', 'Mango', 'Avocado']
-['Banana', 10, False, 9.81]
-```
-
-## Dictionary
-
-A Python dictionary object is an **unordered** collection of data in a key value pair format.
-
-```python
-{
-  'first_name':'Asabeneh',
-  'last_name':'Yetayeh',
-  'country':'Finland',
-  'age':250,
-  'is_married':True,
-  'skills':['JS', 'React', 'Node', 'Python']
-}
-```
-
-## Tuple
-
-A tuple is an **ordered** collection of different data types lie list but tuples can not be modified once they are created. They are **Immutable**
-
-```python
-{'Asabeneh', 'Pawel', 'Brook', 'Abraham', 'Lidiya'}
-```
-
-## Set
-
-A set is a collection of data types similar to list and tuple. Unlike list and tuple, set is not an **ordered** collection of items. Like in Mathematics, set in Python stores only unique items.
-
-```python
-{2, 4, 3, 5}
-{3.14, 9.81, 2.7}
-```
-
-# Checking Data Types
-
-```python
-print(type("foo"))
-```
+1. Write an example for different python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
+2. Find an Euclidean distance between (2, 3) and (10, 8)
